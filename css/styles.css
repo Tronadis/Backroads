@@ -480,6 +480,12 @@ Featured Tours
 	text-transform: capitalize;
 	color: var(--clr-primary-5);
 }
+.tour-footer p a {
+	color: inherit;
+}
+.tour-footer p a:hover {
+	color: var(--clr-primary-1);
+}
 .tours-btn {
 	text-align: center;
 }
