@@ -142,7 +142,8 @@ p {
 	color: var(--clr-primary-1);
 	background: var(--clr-primary-8);
 }
-.section {
+section:not(#gallery),
+footer {
 	padding: 5rem 0;
 }
 .section-title {
@@ -193,7 +194,7 @@ Navbar
 	align-items: center;
 	padding: 1rem 2rem;
 }
-.nav-toggle {
+#nav-toggle {
 	background: transparent;
 	border: transparent;
 	font-size: 1.5rem;
@@ -201,7 +202,7 @@ Navbar
 	cursor: pointer;
 	transition: var(--transition);
 }
-.nav-toggle:hover {
+#nav-toggle:hover {
 	transform: scale(1.2);
 }
 /* 280px */
@@ -232,7 +233,7 @@ Navbar
 	.navbar {
 		padding: 1rem 2rem;
 	}
-	.nav-toggle {
+	#nav-toggle {
 		display: none;
 	}
 	.nav-center {
@@ -369,7 +370,7 @@ About
 Services
 ===============
 */
-.services {
+#services {
 	background: var(--clr-grey-10);
 }
 .service {
@@ -514,7 +515,7 @@ Featured Tours
 Contact
 ===============
 */
-.contact {
+#contact {
 	background: var(--clr-primary-5);
 }
 .contact-title {
@@ -624,7 +625,7 @@ Gallery
 Footer
 ===============
 */
-.footer {
+footer {
 	background: var(--clr-grey-1);
 	text-align: center;
 	padding-left: 2rem;
