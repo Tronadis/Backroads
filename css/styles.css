@@ -212,9 +212,7 @@ Navbar
 	transition: var(--transition);
 }
 .show-links {
-	height: 310px;
-	/* Because with 280px,
-	 the last option was half-hidden on hover. */
+	height: 280px;
 }
 .nav-link {
 	display: block;
@@ -229,7 +227,7 @@ Navbar
 .nav-link:hover {
 	color: var(--clr-primary-1);
 	background: var(--clr-primary-8);
-	padding: 2.25rem;
+	padding-left: 2.25rem;
 }
 @media screen and (min-width: 992px) {
 	.navbar {
