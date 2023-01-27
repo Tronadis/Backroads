@@ -527,6 +527,7 @@ Contact
 .contact-form {
 	display: flex;
 	max-width: 28rem;
+	flex-wrap: wrap;
 }
 .form-control {
 	flex: 1 1 auto;
@@ -534,6 +535,7 @@ Contact
 }
 .form-control,
 .btn-submit {
+	margin-top: 0.5rem;
 	padding: 0.375rem 0.75rem;
 	font-size: 1rem;
 	line-height: 1.5;
