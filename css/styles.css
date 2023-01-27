@@ -212,7 +212,9 @@ Navbar
 	transition: var(--transition);
 }
 .show-links {
-	height: 280px;
+	height: 310px;
+	/* Because with 280px,
+	 the last option was half-hidden on hover. */
 }
 .nav-link {
 	display: block;
